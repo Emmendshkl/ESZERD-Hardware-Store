@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESZERD Hardware</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2b0b55;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #2b0b88;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #2b0b55;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ESZERD Hardware</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to ESZERD Hardware!</p>
+	<img src="Makita Angle Grinder.jpeg" width="150"height="100">
+	<img src="Stanley Angle Grinder.jpeg" width="150"height="100">
+	<img src="XCORT Angle Grinder.png" width="150"height="150">
+	<img src="XCORT XDC05-24.png" width="100"height="100">
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <p>We are providing all kind of Power Tools, Engineering Tools, Machineries, Hardware & Building Materials Etc..</p>
+	<table>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Hand Drill</td>
+            <td>LKR 5000</td>
+        </tr>
+        <tr>
+            <td>Angle Grinder</td>
+            <td>LKR 8000</td>
+        </tr>
+        <tr>
+            <td>Wood working Machine</td>
+            <td>LKR 65000</td>
+        </tr>
+    
+    </table>
+</section>
+
+<section id="services">
+    <h2>Services</h2>
+    <p>Here are the services we offer:</p>
+    <ul>
+        <li>Wholesale</li>
+		<li>Retail</li>
+		<li>Repare Service </li>
+        <li>Spare parts</li>
+        <li>Warrenty Service</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Contact us using the form below:</p>
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+</main>
+
+<footer>
+	<p></p>
+    &copy; 2024 ESZERD Hardware
+</footer>
+
+</body>
+</html>
